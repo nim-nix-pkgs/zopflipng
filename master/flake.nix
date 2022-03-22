@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-zopflipng-master.flake = false;
+  inputs.src-zopflipng-master.ref   = "refs/heads/master";
   inputs.src-zopflipng-master.owner = "bung87";
-  inputs.src-zopflipng-master.ref   = "master";
   inputs.src-zopflipng-master.repo  = "zopflipng";
   inputs.src-zopflipng-master.type  = "github";
   
